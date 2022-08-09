@@ -7,7 +7,7 @@
 }
 
 body {
-    background: linear-gradient(to bottom left, rgb(227, 253, 255), rgb(159, 231, 255)) no-repeat center center/cover;
+    background: linear-gradient(to bottom left, rgba(227, 253, 255, 0.315), rgba(159, 231, 255, 0.349)), url(img/bg-hero-desktop.svg) no-repeat center center/cover;
     font-family: 'Poppins', sans-serif;
     width: 100vw;
     height: 100vh;
