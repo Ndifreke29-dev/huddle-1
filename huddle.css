@@ -242,7 +242,7 @@ i {
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
 
     header {
         padding: 0 20px;
@@ -271,6 +271,7 @@ i {
         font-weight: bold;
         box-shadow: 1px 1px 10px -6px;
         transition: 0.3s;
+        margin-right: 2px;
     }
     
     button:hover {
@@ -282,7 +283,7 @@ i {
         display: grid;
         grid-template-columns: 1fr;
         gap: 50px;
-        padding: 0 40px;
+        padding: 0 5px;
         text-align: center;
         margin-bottom: 10px;
     }
@@ -327,6 +328,7 @@ i {
         font-size: .8rem;
         font-weight: bold;
         box-shadow: 1px 1px 10px -5px #000;
+        margin-bottom: 20px;
         cursor: pointer;
         transition: 0.5s;
     }
@@ -363,7 +365,7 @@ i {
     
     .section-top-left {
         width: 100%;
-        padding: 20px 50px;
+        padding: 20px 15px;
         text-align: center;
         display: flex;
         flex-direction: column;
