@@ -275,8 +275,9 @@ i {
     }
     
     button:hover {
-        border: 1px solid #000;
-        background: transparent;
+        border: none;
+        background: rgb(255, 0, 179);
+        color: #fff;
     }
     
     .showcase {
@@ -332,6 +333,10 @@ i {
         cursor: pointer;
         transition: 0.5s;
     }
+
+    .btn:hover {
+        color: #000;
+    }
     
     .showcase button:hover {
         opacity: .8;
@@ -344,6 +349,16 @@ i {
     
     section {
         padding: 70px 20px 190px 20px;
+        position: relative;
+    }
+
+    
+    .section-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
     }
     
     .section-top,
@@ -389,11 +404,6 @@ i {
         line-height: 25px;
     }
     
-    .footer-tag {
-        display: flex;
-        justify-content: center;
-        position: relative;
-    }
     
     .inside-pad {
         background:rgb(255, 255, 255);
@@ -426,10 +436,6 @@ i {
         display: grid;
         gap: 15px;
         margin-bottom: 40px;
-    }
-    
-    .footer1 .img-cont img {
-        width: 120px;
     }
     
     .footer1 .location, .tel, .email {
