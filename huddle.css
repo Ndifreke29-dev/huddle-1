@@ -351,15 +351,6 @@ i {
         padding: 70px 20px 190px 20px;
         position: relative;
     }
-
-    
-    .section-footer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        bottom: 0;
-    }
     
     .section-top,
     .section-mid,
@@ -404,6 +395,12 @@ i {
         line-height: 25px;
     }
     
+    .section-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+    }
     
     .inside-pad {
         background:rgb(255, 255, 255);
