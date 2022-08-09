@@ -238,6 +238,42 @@ i {
     padding: 10px 0;
 }
 
+.location {
+    display: flex;
+}
+
+.location .left {
+    flex: 1;
+}
+
+.location .right {
+    flex: 5;
+}
+
+.tel {
+    display: flex;
+}
+
+.tel .left {
+    flex: 1;
+}
+
+.tel .right {
+    flex: 5;
+}
+
+.email {
+    display: flex;
+}
+
+.email .left {
+    flex: 1;
+}
+
+.email .right {
+    flex: 5;
+}
+
 
 
 
@@ -480,4 +516,7 @@ i {
     .padding-through {
         padding: 5px 0;
     }
+
+
+    
 }
