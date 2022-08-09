@@ -115,7 +115,7 @@ button:hover {
 
 
 section {
-    padding: 100px 60px 150px 60px;
+    padding: 100px 60px 50px 60px;
 }
 
 .section-top,
@@ -160,7 +160,7 @@ span {
 .footer-tag {
     display: flex;
     justify-content: center;
-    position: relative;
+    align-items: center;
 }
 
 .inside-pad {
@@ -171,8 +171,6 @@ span {
     border-radius: 10px;
     text-align: center;
     box-shadow: 1px 1px 15px -9px;
-    position: absolute;
-    top: 60px;
 }
 
 .btn1:hover {
