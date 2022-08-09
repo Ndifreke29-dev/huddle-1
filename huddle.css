@@ -4,11 +4,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow: auto;
 }
 
 body {
-    background: linear-gradient(to bottom left, rgba(227, 253, 255, 0.315), rgba(159, 231, 255, 0.349)), url(img/bg-hero-desktop.svg) no-repeat center center/cover;
     font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background: linear-gradient(to bottom left, rgb(227, 253, 255, 0.3), rgba(159, 231, 255, 0.3)), url(img/bg-hero-desktop.svg) no-repeat center center/cover;
     width: 100vw;
     height: 100vh;
 }
@@ -201,6 +205,7 @@ footer {
 
 .footer1 .location img {
     margin-right: 20px;
+    width: 90px;
     height: 30px;
 }
 
